@@ -12,8 +12,8 @@ module "royal-vpc-dev" {
   enable_vpn_gateway = false
 
   tags = {
-    Terraform = "true"
+    Terraform   = "true"
     Environment = "dev"
-    Name = "royal-vpc-dev"
+    Name        = "royal-vpc-dev"
   }
 }
